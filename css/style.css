@@ -52,7 +52,6 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
-  max-width: 1600px;
   margin: 0 auto;
 }
 .container-header {
@@ -270,7 +269,6 @@ body {
 .team {
   background-color: var(--c-grey);
   margin: 0 auto;
-  max-width: 1600px;
 }
 .team-container {
   padding-top: 94px;
@@ -392,14 +390,12 @@ body {
 }
 .client-list-item:hover,
 .client-list-item:focus {
-  border: 2px solid var(--c-blue);
-  border-radius: 0;
+  border: 1px solid var(--c-blue);
 }
 /* ############################# */
 /*FOOTER*/
 
 .footer {
-  max-width: 1600px;
   margin: 0 auto;
   background-color: var(--c-dark-blue);
 }
@@ -527,7 +523,6 @@ body {
 .project-list-item:hover,
 .project-list-item:focus {
   background-color: var(--c-white);
-  border: 1px solid var(--c-light);
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
